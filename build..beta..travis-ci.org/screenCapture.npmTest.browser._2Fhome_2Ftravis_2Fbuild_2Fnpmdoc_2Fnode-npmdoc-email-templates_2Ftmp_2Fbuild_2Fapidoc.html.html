@@ -1,0 +1,463 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/niftylettuce/node-email-templates">email-templates (v2.5.4)</a>
+</h1>
+<h4>Node.js module for rendering beautiful emails with ejs, jade, swig, hbs, or handlebars templates and email-friendly inline CSS using juice.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.email-templates">module email-templates</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.EmailTemplate">
+            function <span class="apidocSignatureSpan">email-templates.</span>EmailTemplate
+            <span class="apidocSignatureSpan">(path)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">email-templates.</span>email_template</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">email-templates.</span>requires</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">email-templates.</span>template_manager</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">email-templates.</span>util</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.email-templates.email_template">module email-templates.email_template</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.email_template.default">
+            function <span class="apidocSignatureSpan">email-templates.email_template.</span>default
+            <span class="apidocSignatureSpan">(path)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.email-templates.template_manager">module email-templates.template_manager</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.template_manager.render">
+            function <span class="apidocSignatureSpan">email-templates.template_manager.</span>render
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.email-templates.util">module email-templates.util</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.ensureDirectory">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>ensureDirectory
+            <span class="apidocSignatureSpan">(path, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.getLocalizedETF">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>getLocalizedETF
+            <span class="apidocSignatureSpan">(templatePath, locale, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.getRootTemplateFolder">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>getRootTemplateFolder
+            <span class="apidocSignatureSpan">(templatePath, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.readContents">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>readContents
+            <span class="apidocSignatureSpan">(path, type)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.renderFile">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>renderFile
+            <span class="apidocSignatureSpan">(file, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.email-templates.util.resolveTPLFolder">
+            function <span class="apidocSignatureSpan">email-templates.util.</span>resolveTPLFolder
+            <span class="apidocSignatureSpan">(path, locale, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.email-templates" id="apidoc.module.email-templates">module email-templates</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.EmailTemplate" id="apidoc.element.email-templates.EmailTemplate">
+        function <span class="apidocSignatureSpan">email-templates.</span>EmailTemplate
+        <span class="apidocSignatureSpan">(path)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EmailTemplate(path) {
+  var options = arguments.length &lt;= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+  _classCallCheck(this, EmailTemplate);
+
+  this.path = path;
+  this.dirname = (0, _path.basename)(path);
+  this.options = options;
+  debug('Creating Email template for path %s', (0, _path.basename)(path));
+  // localized templates cache
+  this.ltpls = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.email-templates.email_template" id="apidoc.module.email-templates.email_template">module email-templates.email_template</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.email_template.default" id="apidoc.element.email-templates.email_template.default">
+        function <span class="apidocSignatureSpan">email-templates.email_template.</span>default
+        <span class="apidocSignatureSpan">(path)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EmailTemplate(path) {
+  var options = arguments.length &lt;= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+  _classCallCheck(this, EmailTemplate);
+
+  this.path = path;
+  this.dirname = (0, _path.basename)(path);
+  this.options = options;
+  debug('Creating Email template for path %s', (0, _path.basename)(path));
+  // localized templates cache
+  this.ltpls = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      }).nodeify(callback);
+    }
+  }, {
+    key: '_renderStyle',
+    value: function _renderStyle(locals, locale) {
+      var _this6 = this;
+
+      return new _bluebird2.<span class="apidocCodeKeywordSpan">default</span>(function (resolve) {
+// cached
+if (_this6.ltpls[locale].style !== undefined) {
+  return resolve(_this6.ltpls[locale].style);
+}
+
+// no style
+if (!_this6.ltpls[locale].files.style) return resolve(null);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.email-templates.template_manager" id="apidoc.module.email-templates.template_manager">module email-templates.template_manager</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.template_manager.render" id="apidoc.element.email-templates.template_manager.render">
+        function <span class="apidocSignatureSpan">email-templates.template_manager.</span>render
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function render(file) {
+  var locals = arguments.length &lt;= 1 || arguments[1] === undefined ? {} : arguments[1];
+  var callback = arguments[2];
+  var filename = file.filename;
+  var content = file.content;
+
+
+  return new _bluebird2.default(function (resolve, reject) {
+    if (!content) return reject('No content in template');
+    if (!filename) return reject('Filename is null');
+    var engine = (0, _path.extname)(filename).slice(1);
+
+    locals.filename = filename;
+    locals.engine = '.' + engine;
+    locals.templatePath = (0, _path.dirname)(filename);
+
+    if (engine.length &amp;&amp; _consolidate2.default[engine] !== undefined) {
+      // use consolidate.js if it supports this engine
+      return _consolidate2.default[engine].render(content, locals, function (err, rendered) {
+        if (err) return reject(err);
+        resolve(rendered);
+      });
+    } else {
+      // or use the function defined in the engineMap
+      var fn = engineMap[engine];
+      return resolve(fn(content, locals));
+    }
+    return reject('Can\'t render file with extension ' + engine);
+  }).nodeify(callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var EmailTemplate = require('email-templates').EmailTemplate
+var path = require('path')
+
+var templateDir = path.join(__dirname, 'templates', 'newsletter')
+
+var newsletter = new EmailTemplate(templateDir)
+var user = {name: 'Joe', pasta: 'spaghetti'}
+newsletter.<span class="apidocCodeKeywordSpan">render</span>(user, function (err, result) {
+// result.html
+// result.text
+})
+
+var async = require('async')
+var users = [
+{name: 'John', pasta: 'Rigatoni'},
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.email-templates.util" id="apidoc.module.email-templates.util">module email-templates.util</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.ensureDirectory" id="apidoc.element.email-templates.util.ensureDirectory">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>ensureDirectory
+        <span class="apidocSignatureSpan">(path, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ensureDirectory(path, callback) {
+  return new _bluebird2.default(function (resolve, reject) {
+    (0, _fs.stat)(path, function (err, stat) {
+      if (err) return reject(err);
+      if (!stat.isDirectory()) return reject();
+      resolve();
+    });
+  }).nodeify(callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.getLocalizedETF" id="apidoc.element.email-templates.util.getLocalizedETF">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>getLocalizedETF
+        <span class="apidocSignatureSpan">(templatePath, locale, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getLocalizedETF(templatePath, locale, done) {
+  if (!locale || locale === 'en-us') return done();
+
+  var p = (0, _path.join)(templatePath, locale);
+  (0, _fs.stat)(p, function afterCheckIfFolderExists(err) {
+    if (err) {
+      if (err.code === 'ENOENT') return done(); // not found
+      return done(err); // unknow error
+    }
+    done(null, p);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.getRootTemplateFolder" id="apidoc.element.email-templates.util.getRootTemplateFolder">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>getRootTemplateFolder
+        <span class="apidocSignatureSpan">(templatePath, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getRootTemplateFolder(templatePath, done) {
+  (0, _fs.stat)(templatePath, function afterCheckIfFolderExists(err) {
+    if (err) return done(err);
+    done(null, templatePath);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.readContents" id="apidoc.element.email-templates.util.readContents">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>readContents
+        <span class="apidocSignatureSpan">(path, type)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function readContents(path, type) {
+  return globP(path + '/*' + type + '.*').then(function (files) {
+    if (!files.length) return null;
+
+    return readFileP(files[0], 'utf8').then(function (content) {
+      if (!content.length) return null;
+      return {
+        filename: files[0],
+        content: content
+      };
+    });
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.renderFile" id="apidoc.element.email-templates.util.renderFile">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>renderFile
+        <span class="apidocSignatureSpan">(file, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function renderFile(file, options) {
+  if (!file) return _bluebird2.default.resolve(null);
+  return (0, _templateManager.render)(file, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.email-templates.util.resolveTPLFolder" id="apidoc.element.email-templates.util.resolveTPLFolder">
+        function <span class="apidocSignatureSpan">email-templates.util.</span>resolveTPLFolder
+        <span class="apidocSignatureSpan">(path, locale, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function resolveTPLFolder(path, locale, callback) {
+  return new _bluebird2.default(function (resolve, reject) {
+    getLocalizedETF(path, locale, function (err, tpl) {
+      if (err) return reject(err);
+      if (tpl) return resolve(tpl);
+
+      getRootTemplateFolder(path, function (err, tpl) {
+        if (err) return reject(err);
+        resolve(tpl);
+      });
+    });
+  }).nodeify(callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
