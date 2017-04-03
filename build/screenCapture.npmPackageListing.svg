@@ -1,55 +1,55 @@
 <svg height="830" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="830" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 10:34:41 +0000    88560 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 10:34:41 +0000     4008 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 10:34:41 +0000     1124 byte  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 10:34:41 +0000    10672 byte  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 10:34:41 +0000      655 byte  examples/handlebars/index.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 10:34:41 +0000      772 byte  examples/handlebars_i18n/index.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 10:34:41 +0000      442 byte  examples/inheritance/index.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 10:34:41 +0000     1883 byte  examples/kuemailer/index.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 10:34:41 +0000     2376 byte  examples/nodemailer/index.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 10:34:41 +0000     2466 byte  examples/postmark/index.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 10:34:41 +0000       48 byte  examples/templates/_common.scss</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 10:34:41 +0000       29 byte  examples/templates/newsletter-hbs-i18n/html.hbs</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 10:34:41 +0000       33 byte  examples/templates/newsletter-hbs-i18n/pt-br/html\</tspan>
+<tspan x="10" y="26">  0.  2017-04-03 10:36:13 +0000    88560 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-03 10:36:13 +0000     4008 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-03 10:36:13 +0000     1124 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-03 10:36:13 +0000    10672 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-03 10:36:13 +0000      655 byte  examples/handlebars/index.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-03 10:36:13 +0000      772 byte  examples/handlebars_i18n/index.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-03 10:36:13 +0000      442 byte  examples/inheritance/index.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-03 10:36:13 +0000     1883 byte  examples/kuemailer/index.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-03 10:36:13 +0000     2376 byte  examples/nodemailer/index.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-03 10:36:13 +0000     2466 byte  examples/postmark/index.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-03 10:36:13 +0000       48 byte  examples/templates/_common.scss</tspan>
+<tspan x="10" y="202"> 11.  2017-04-03 10:36:13 +0000       29 byte  examples/templates/newsletter-hbs-i18n/html.hbs</tspan>
+<tspan x="10" y="218"> 12.  2017-04-03 10:36:13 +0000       33 byte  examples/templates/newsletter-hbs-i18n/pt-br/html\</tspan>
 <tspan x="10" y="234">.hbs</tspan>
-<tspan x="10" y="250"> 13.  2017-04-03 10:34:41 +0000      106 byte  examples/templates/newsletter-hbs-i18n/pt-br/styl\</tspan>
+<tspan x="10" y="250"> 13.  2017-04-03 10:36:13 +0000      106 byte  examples/templates/newsletter-hbs-i18n/pt-br/styl\</tspan>
 <tspan x="10" y="266">e.scss</tspan>
-<tspan x="10" y="282"> 14.  2017-04-03 10:34:41 +0000       25 byte  examples/templates/newsletter-hbs-i18n/pt-br/text\</tspan>
+<tspan x="10" y="282"> 14.  2017-04-03 10:36:13 +0000       25 byte  examples/templates/newsletter-hbs-i18n/pt-br/text\</tspan>
 <tspan x="10" y="298">.hbs</tspan>
-<tspan x="10" y="314"> 15.  2017-04-03 10:34:41 +0000      103 byte  examples/templates/newsletter-hbs-i18n/style.scss</tspan>
-<tspan x="10" y="330"> 16.  2017-04-03 10:34:41 +0000       20 byte  examples/templates/newsletter-hbs-i18n/text.hbs</tspan>
-<tspan x="10" y="346"> 17.  2017-04-03 10:34:41 +0000       29 byte  examples/templates/newsletter-hbs/html.hbs</tspan>
-<tspan x="10" y="362"> 18.  2017-04-03 10:34:41 +0000      103 byte  examples/templates/newsletter-hbs/style.scss</tspan>
-<tspan x="10" y="378"> 19.  2017-04-03 10:34:41 +0000       42 byte  examples/templates/newsletter-hbs/text.hbs</tspan>
-<tspan x="10" y="394"> 20.  2017-04-03 10:34:41 +0000       53 byte  examples/templates/newsletter-i18n/html.ejs</tspan>
-<tspan x="10" y="410"> 21.  2017-04-03 10:34:41 +0000       47 byte  examples/templates/newsletter-i18n/pt-br/html.ejs</tspan>
-<tspan x="10" y="426"> 22.  2017-04-03 10:34:41 +0000      103 byte  examples/templates/newsletter-i18n/pt-br/style.sc\</tspan>
+<tspan x="10" y="314"> 15.  2017-04-03 10:36:13 +0000      103 byte  examples/templates/newsletter-hbs-i18n/style.scss</tspan>
+<tspan x="10" y="330"> 16.  2017-04-03 10:36:13 +0000       20 byte  examples/templates/newsletter-hbs-i18n/text.hbs</tspan>
+<tspan x="10" y="346"> 17.  2017-04-03 10:36:13 +0000       29 byte  examples/templates/newsletter-hbs/html.hbs</tspan>
+<tspan x="10" y="362"> 18.  2017-04-03 10:36:13 +0000      103 byte  examples/templates/newsletter-hbs/style.scss</tspan>
+<tspan x="10" y="378"> 19.  2017-04-03 10:36:13 +0000       42 byte  examples/templates/newsletter-hbs/text.hbs</tspan>
+<tspan x="10" y="394"> 20.  2017-04-03 10:36:13 +0000       53 byte  examples/templates/newsletter-i18n/html.ejs</tspan>
+<tspan x="10" y="410"> 21.  2017-04-03 10:36:13 +0000       47 byte  examples/templates/newsletter-i18n/pt-br/html.ejs</tspan>
+<tspan x="10" y="426"> 22.  2017-04-03 10:36:13 +0000      103 byte  examples/templates/newsletter-i18n/pt-br/style.sc\</tspan>
 <tspan x="10" y="442">ss</tspan>
-<tspan x="10" y="458"> 23.  2017-04-03 10:34:41 +0000       39 byte  examples/templates/newsletter-i18n/pt-br/text.ejs</tspan>
-<tspan x="10" y="474"> 24.  2017-04-03 10:34:41 +0000      103 byte  examples/templates/newsletter-i18n/style.scss</tspan>
-<tspan x="10" y="490"> 25.  2017-04-03 10:34:41 +0000       45 byte  examples/templates/newsletter-i18n/text.ejs</tspan>
-<tspan x="10" y="506"> 26.  2017-04-03 10:34:41 +0000       53 byte  examples/templates/newsletter/html.ejs</tspan>
-<tspan x="10" y="522"> 27.  2017-04-03 10:34:41 +0000      103 byte  examples/templates/newsletter/style.scss</tspan>
-<tspan x="10" y="538"> 28.  2017-04-03 10:34:41 +0000       45 byte  examples/templates/newsletter/text.ejs</tspan>
-<tspan x="10" y="554"> 29.  2017-04-03 10:34:41 +0000      132 byte  examples/templates/pasta-dinner/html.ejs</tspan>
-<tspan x="10" y="570"> 30.  2017-04-03 10:34:41 +0000       21 byte  examples/templates/pasta-dinner/style.css</tspan>
-<tspan x="10" y="586"> 31.  2017-04-03 10:34:41 +0000      112 byte  examples/templates/pasta-dinner/text.ejs</tspan>
-<tspan x="10" y="602"> 32.  2017-04-03 10:34:41 +0000       39 byte  index.js</tspan>
-<tspan x="10" y="618"> 33.  2017-04-03 10:34:41 +0000     8711 byte  lib/email-template.js</tspan>
-<tspan x="10" y="634"> 34.  2017-04-03 10:34:41 +0000     1699 byte  lib/main.js</tspan>
-<tspan x="10" y="650"> 35.  2017-04-03 10:34:41 +0000     4057 byte  lib/template-manager.js</tspan>
-<tspan x="10" y="666"> 36.  2017-04-03 10:34:41 +0000     3108 byte  lib/util.js</tspan>
-<tspan x="10" y="682"> 37.  2017-04-03 10:34:41 +0000     4599 byte  package.json</tspan>
-<tspan x="10" y="698"> 38.  2017-04-03 10:34:41 +0000     5113 byte  src/email-template.js</tspan>
-<tspan x="10" y="714"> 39.  2017-04-03 10:34:41 +0000     1593 byte  src/main.js</tspan>
-<tspan x="10" y="730"> 40.  2017-04-03 10:34:41 +0000     3359 byte  src/template-manager.js</tspan>
-<tspan x="10" y="746"> 41.  2017-04-03 10:34:41 +0000     2397 byte  src/util.js</tspan>
-<tspan x="10" y="762"> 42.  2017-04-03 10:34:41 +0000       52 byte  test/mocha.opts</tspan>
-<tspan x="10" y="778"> 43.  2017-04-03 10:34:41 +0000     9123 byte  test/testEmailTemplate.js</tspan>
-<tspan x="10" y="794"> 44.  2017-04-03 10:34:41 +0000    12721 byte  test/testMain.js</tspan>
-<tspan x="10" y="810"> 45.  2017-04-03 10:34:41 +0000     6197 byte  test/testTemplateManager.js</tspan>
+<tspan x="10" y="458"> 23.  2017-04-03 10:36:13 +0000       39 byte  examples/templates/newsletter-i18n/pt-br/text.ejs</tspan>
+<tspan x="10" y="474"> 24.  2017-04-03 10:36:13 +0000      103 byte  examples/templates/newsletter-i18n/style.scss</tspan>
+<tspan x="10" y="490"> 25.  2017-04-03 10:36:13 +0000       45 byte  examples/templates/newsletter-i18n/text.ejs</tspan>
+<tspan x="10" y="506"> 26.  2017-04-03 10:36:13 +0000       53 byte  examples/templates/newsletter/html.ejs</tspan>
+<tspan x="10" y="522"> 27.  2017-04-03 10:36:13 +0000      103 byte  examples/templates/newsletter/style.scss</tspan>
+<tspan x="10" y="538"> 28.  2017-04-03 10:36:13 +0000       45 byte  examples/templates/newsletter/text.ejs</tspan>
+<tspan x="10" y="554"> 29.  2017-04-03 10:36:13 +0000      132 byte  examples/templates/pasta-dinner/html.ejs</tspan>
+<tspan x="10" y="570"> 30.  2017-04-03 10:36:13 +0000       21 byte  examples/templates/pasta-dinner/style.css</tspan>
+<tspan x="10" y="586"> 31.  2017-04-03 10:36:13 +0000      112 byte  examples/templates/pasta-dinner/text.ejs</tspan>
+<tspan x="10" y="602"> 32.  2017-04-03 10:36:13 +0000       39 byte  index.js</tspan>
+<tspan x="10" y="618"> 33.  2017-04-03 10:36:13 +0000     8711 byte  lib/email-template.js</tspan>
+<tspan x="10" y="634"> 34.  2017-04-03 10:36:13 +0000     1699 byte  lib/main.js</tspan>
+<tspan x="10" y="650"> 35.  2017-04-03 10:36:13 +0000     4057 byte  lib/template-manager.js</tspan>
+<tspan x="10" y="666"> 36.  2017-04-03 10:36:13 +0000     3108 byte  lib/util.js</tspan>
+<tspan x="10" y="682"> 37.  2017-04-03 10:36:13 +0000     4599 byte  package.json</tspan>
+<tspan x="10" y="698"> 38.  2017-04-03 10:36:13 +0000     5113 byte  src/email-template.js</tspan>
+<tspan x="10" y="714"> 39.  2017-04-03 10:36:13 +0000     1593 byte  src/main.js</tspan>
+<tspan x="10" y="730"> 40.  2017-04-03 10:36:13 +0000     3359 byte  src/template-manager.js</tspan>
+<tspan x="10" y="746"> 41.  2017-04-03 10:36:13 +0000     2397 byte  src/util.js</tspan>
+<tspan x="10" y="762"> 42.  2017-04-03 10:36:13 +0000       52 byte  test/mocha.opts</tspan>
+<tspan x="10" y="778"> 43.  2017-04-03 10:36:13 +0000     9123 byte  test/testEmailTemplate.js</tspan>
+<tspan x="10" y="794"> 44.  2017-04-03 10:36:13 +0000    12721 byte  test/testMain.js</tspan>
+<tspan x="10" y="810"> 45.  2017-04-03 10:36:13 +0000     6197 byte  test/testTemplateManager.js</tspan>
 </text>
 </svg>
