@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/niftylettuce/node-email-templates"
-
-    >email-templates (v2.5.4)</a>
+    <a href="https://github.com/niftylettuce/node-email-templates">email-templates (v2.5.4)</a>
 </h1>
 <h4>Node.js module for rendering beautiful emails with ejs, jade, swig, hbs, or handlebars templates and email-friendly inline CSS using juice.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.email-templates">module email-templates</a><ol>
 
@@ -115,12 +108,12 @@
     options = {};
   }
   if (!templateDirectory) {
-    return done(new Error(&#x27;templateDirectory is undefined&#x27;));
+    return done(new Error('templateDirectory is undefined'));
   }
 
   return ensureDirectory(templateDirectory, function (err) {
     if (err) return done(err);
-    debug(&#x27;Creating Email Templates in %s&#x27;, basename(templateDirectory));
+    debug('Creating Email Templates in %s', basename(templateDirectory));
     return done(null, template(templateDirectory, options));
   });
 }</pre></li>
@@ -137,14 +130,14 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function EmailTemplate(path) {
-  var options = arguments.length &#x3c;= 1 || arguments[1] === undefined ? {} : arguments[1];
+  var options = arguments.length &lt;= 1 || arguments[1] === undefined ? {} : arguments[1];
 
   _classCallCheck(this, EmailTemplate);
 
   this.path = path;
   this.dirname = (0, _path.basename)(path);
   this.options = options;
-  debug(&#x27;Creating Email template for path %s&#x27;, (0, _path.basename)(path));
+  debug('Creating Email template for path %s', (0, _path.basename)(path));
   // localized templates cache
   this.ltpls = {};
 }</pre></li>
@@ -177,3 +170,4 @@
     ]
 </div>
 </div>
+</body></html>
