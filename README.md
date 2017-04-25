@@ -1,7 +1,12 @@
-# api documentation for  [email-templates (v2.5.4)](https://github.com/niftylettuce/node-email-templates)  [![npm package](https://img.shields.io/npm/v/npmdoc-email-templates.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-email-templates) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-email-templates.svg)](https://travis-ci.org/npmdoc/node-npmdoc-email-templates)
+# npmdoc-email-templates
+
+#### basic api documentation for  [email-templates (v2.5.4)](https://github.com/niftylettuce/node-email-templates)  [![npm package](https://img.shields.io/npm/v/npmdoc-email-templates.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-email-templates) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-email-templates.svg)](https://travis-ci.org/npmdoc/node-npmdoc-email-templates)
+
 #### Node.js module for rendering beautiful emails with ejs, jade, swig, hbs, or handlebars templates and email-friendly inline CSS using juice.
 
 [![NPM](https://nodei.co/npm/email-templates.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/email-templates)
+
+- [https://npmdoc.github.io/node-npmdoc-email-templates/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-email-templates/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-email-templates/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-email-templates/build/apidoc.html)
 
@@ -136,79 +141,9 @@
             "examples"
         ]
     },
-    "version": "2.5.4"
+    "version": "2.5.4",
+    "bin": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module email-templates](#apidoc.module.email-templates)
-1.  [function <span class="apidocSignatureSpan"></span>email-templates (templateDirectory, options, done)](#apidoc.element.email-templates.email-templates)
-1.  [function <span class="apidocSignatureSpan">email-templates.</span>EmailTemplate (path)](#apidoc.element.email-templates.EmailTemplate)
-1.  [function <span class="apidocSignatureSpan">email-templates.</span>toString ()](#apidoc.element.email-templates.toString)
-1.  object <span class="apidocSignatureSpan">email-templates.</span>requires
-
-
-
-# <a name="apidoc.module.email-templates"></a>[module email-templates](#apidoc.module.email-templates)
-
-#### <a name="apidoc.element.email-templates.email-templates"></a>[function <span class="apidocSignatureSpan"></span>email-templates (templateDirectory, options, done)](#apidoc.element.email-templates.email-templates)
-- description and source-code
-```javascript
-function exportable(templateDirectory, options, done) {
-  if (isFunction(options)) {
-    done = options;
-    options = {};
-  }
-  if (!templateDirectory) {
-    return done(new Error('templateDirectory is undefined'));
-  }
-
-  return ensureDirectory(templateDirectory, function (err) {
-    if (err) return done(err);
-    debug('Creating Email Templates in %s', basename(templateDirectory));
-    return done(null, template(templateDirectory, options));
-  });
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.email-templates.EmailTemplate"></a>[function <span class="apidocSignatureSpan">email-templates.</span>EmailTemplate (path)](#apidoc.element.email-templates.EmailTemplate)
-- description and source-code
-```javascript
-function EmailTemplate(path) {
-  var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
-
-  _classCallCheck(this, EmailTemplate);
-
-  this.path = path;
-  this.dirname = (0, _path.basename)(path);
-  this.options = options;
-  debug('Creating Email template for path %s', (0, _path.basename)(path));
-  // localized templates cache
-  this.ltpls = {};
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.email-templates.toString"></a>[function <span class="apidocSignatureSpan">email-templates.</span>toString ()](#apidoc.element.email-templates.toString)
-- description and source-code
-```javascript
-toString = function () {
-    return toString;
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
