@@ -7,8 +7,8 @@
 <tspan x="10" y="74">└─┬ email-templates@2.5.4 </tspan>
 <tspan x="10" y="90">  ├── bluebird@3.5.0 </tspan>
 <tspan x="10" y="106">  ├── consolidate@0.14.5 </tspan>
-<tspan x="10" y="122">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="138">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="122">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="138">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="154">  ├─┬ glob@6.0.4 </tspan>
 <tspan x="10" y="170">  │ ├─┬ inflight@1.0.6 </tspan>
 <tspan x="10" y="186">  │ │ └── wrappy@1.0.2 </tspan>
@@ -120,7 +120,7 @@
 <tspan x="10" y="1882">  │   │ ├─┬ form-data@2.1.4 </tspan>
 <tspan x="10" y="1898">  │   │ │ └── asynckit@0.4.0 </tspan>
 <tspan x="10" y="1914">  │   │ ├─┬ har-validator@4.2.1 </tspan>
-<tspan x="10" y="1930">  │   │ │ ├─┬ ajv@4.11.6 </tspan>
+<tspan x="10" y="1930">  │   │ │ ├─┬ ajv@4.11.7 </tspan>
 <tspan x="10" y="1946">  │   │ │ │ ├── co@4.6.0 </tspan>
 <tspan x="10" y="1962">  │   │ │ │ └─┬ json-stable-stringify@1.0.1 </tspan>
 <tspan x="10" y="1978">  │   │ │ │   └── jsonify@0.0.0 </tspan>
